@@ -58,7 +58,6 @@ class FeedbackWidget extends Component {
                 <h1>Feedback Widget </h1>
 
                <FeedbackTitle title="Please leave  feedback">
-
                     <FeedbackOptions
                          options={"good"}
                          onLeaveFeedback={this.goodIncrement}
@@ -73,7 +72,6 @@ class FeedbackWidget extends Component {
                      options={"bad"}
                      onLeaveFeedback={this.badIncrement}
                     />
-
                </FeedbackTitle>
     
                 <FeedbackTitle title="Statistics">
